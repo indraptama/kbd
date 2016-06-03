@@ -1,0 +1,40 @@
+.MainHeader {
+  border-bottom: 4px solid #589CD9;
+}
+
+.MainHeader-top {
+  background-color: #589CD9;
+  color: #fff;
+}
+
+.MainHeader-social a {
+  display: inline-block;
+  padding-top: 13.5px;
+  padding-bottom: 13.5px;
+  margin-right: 0.5rem;
+}
+
+.MainHeader-search {
+  padding-top: 12px;
+}
+
+.MainHeader-search input {
+  height: 32px;
+  border-radius: 20px;
+  border: none;
+  padding: 0 1rem;
+  min-width: 200px;
+}
+
+.MainHeader-bottom .container{
+  height: 96px;
+  width: 100%;
+}
+
+.MainHeader-nav a {
+  color: #589CD9;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

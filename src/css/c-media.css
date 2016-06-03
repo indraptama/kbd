@@ -1,0 +1,20 @@
+.Media {
+  display: table;
+  width: 100%;
+}
+
+.Media-img {
+  display: table-cell;
+  padding-right: 1.5rem;
+  vertical-align: top;
+}
+
+.Media-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Media-content {
+  display: table-cell;
+  vertical-align: top;
+}

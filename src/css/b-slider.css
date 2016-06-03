@@ -1,0 +1,62 @@
+.bg-primary {
+  background-color: #589CD9;
+}
+
+.slider {
+  height: 560px;
+  background-image: url(../asset/img/air.jpeg);
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+
+.Hero-latestNews {
+  background-color: #589CD9;
+}
+
+.Hero-latestNews a{
+  text-decoration: none;
+}
+
+.Hero-latestNewsContainer {
+  position: relative;
+
+}
+
+.Hero-latestNewsImg {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.Hero-latestNewsImg::before {
+  content: "";
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(#589CD9, .85);
+  transition: all 250ms ease;
+}
+
+/* Hover State */
+
+.Hero-latestNews a:hover .Hero-latestNewsImg::before {
+  background-color: rgba(#589CD9, .0);
+  transition: all 250ms ease;
+}
+
+.Hero-latestNewsContent {
+  position: relative;
+  z-index: 2;
+  color: rgba(#fff, .85);
+}

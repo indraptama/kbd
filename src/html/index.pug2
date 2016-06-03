@@ -1,0 +1,41 @@
+extends partial/default.pug
+block content
+  .slider
+    .container
+      .sliderContent
+        .container
+          .Grid.Grid--withGutter.Grid--alignBottom
+            .Grid-cell.u-lg-size3of5
+              h1 Untuk Indonesia yang lebih berdaya
+            .Grid-cell.u-lg-size2of5
+              .Card.Card-blue
+                h3 Berita Terbaru
+                ul.mt3
+                  li
+                    .Media.mb3
+                      .Media-img.u-size2of12
+                        img(src="https://source.unsplash.com/child/96x96", alt="")
+                      .Media-Content
+                        p Selama Ramadhan, PKPU Sebar 19 Dai ke 4 Benua
+                  li
+                    .Media.mb3
+                      .Media-img.u-size2of12
+                        img(src="https://source.unsplash.com/random/96x96", alt="")
+                      .Media-Content
+                        p PKPU Bersama PT PP Komitmen Berikan Edukasi Bagi Warga Teluk Naga
+                  li
+                    .Media.mb3
+                      .Media-img.u-size2of12
+                        img(src="https://source.unsplash.com/random/96x96", alt="")
+                      .Media-Content
+                        p BNI Syariah dan Mitra Gandeng PKPU Renovasi Paud Binaan
+                  li
+                    .Media.mb3
+                      .Media-img.u-size2of12
+                        img(src="https://source.unsplash.com/random/96x96", alt="")
+                      .Media-Content
+                        p Indosat Ooredoo Lakukan Employee Voluteering Day Program di SDN Cikadut 3 Bandung.
+
+  section.pt4
+    .container
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus ratione quis magni, voluptates facere necessitatibus distinctio nulla commodi possimus dolores quos tenetur provident sint perferendis, quam corporis aliquid numquam illo.

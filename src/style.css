@@ -1,0 +1,91 @@
+@import "./css/base.css";
+
+
+/* Block */
+@import "./css/b-header.css";
+@import "./css/b-slider.css";
+
+/* Components */
+
+/* Grid */
+@import "suitcss-components-grid";
+
+/* Media Object */
+@import "./css/c-media.css";
+
+
+
+
+/* Button */
+@import "suitcss-components-button";
+@import "./css/c-button.css";
+
+/* Utils */
+
+/* Display */
+@import "suitcss-utils-align";
+@import "suitcss-utils-display";
+@import "suitcss-utils-layout";
+@import "suitcss-utils-text";
+
+/* spacing */
+@import "tachyons-spacing";
+/* Micro clearfix */
+@import "tachyons-clears";
+/* Floats */
+@import "tachyons-floats";
+/* Size */
+@import "suitcss-utils-size";
+
+
+body {
+  font-size: 87.5%;
+  line-height: 1.5;
+  font-family: "museo sans rounded";
+  font-weight: 500;
+  color: #444;
+}
+
+
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container--small {
+  max-width: 40em;
+}
+
+.container--half {
+  max-width: 570px;
+}
+
+
+/* Typography */
+h1 {
+  font-family: 'museo';
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+h3 {
+  font-family: 'museo';
+  font-weight: 700;
+}
+
+/* Icons Style */
+.icon-white {
+  fill: #fff;
+}
+
+
+/*  test  */
+.bg-smile {
+  background-image: url(../asset/img/smile.jpeg);
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 400px;
+}
