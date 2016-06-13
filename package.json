@@ -74,14 +74,7 @@
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
     "react-router": "^2.4.0",
-    "suitcss-components-button": "^5.0.0",
-    "suitcss-components-grid": "^3.0.3",
-    "suitcss-utils-align": "^1.0.0",
-    "suitcss-utils-display": "^1.0.2",
-    "suitcss-utils-layout": "^1.0.1",
-    "suitcss-utils-size": "^1.1.0",
-    "suitcss-utils-text": "^1.0.0",
-    "superagent": "^2.0.0",
-    "tachyons-spacing": "^5.0.10"
+    "suitcss": "^2.0.0",
+    "superagent": "^2.0.0"
   }
 }

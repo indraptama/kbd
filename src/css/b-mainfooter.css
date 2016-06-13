@@ -1,0 +1,30 @@
+/** @define MainFooter */
+
+.MainFooter {
+  /*background-color: #FDCE01;*/
+  background-color: #fff;
+  position: relative;
+}
+
+.MainFooter .logo {
+  margin-bottom: var(--base-spacing-unit);
+}
+.MainFooter-top {
+  padding: calc(var(--base-spacing-unit)*3);
+}
+.MainFooter-top h4 {
+  margin-bottom: calc(var(--base-spacing-unit)/2);
+  text-transform: uppercase;
+}
+.MainFooter-top a {
+  display: inline-block;
+  padding: calc(var(--base-spacing-unit)/2) 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.MainFooter-bottom {
+  background-color: #0262ef;
+  color: rgba(#fff, 0.85);
+  padding: calc(var(--base-spacing-unit)/2) 0;
+}

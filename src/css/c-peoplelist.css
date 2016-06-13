@@ -1,0 +1,12 @@
+.PeopleList {
+  display: table;
+}
+.PeopleList-avatar,
+.PeopleList-desc,
+.PeopleList-rating {
+  display: table-cell;
+}
+
+.PeopleList-avatar img {
+  border-radius: 500px;
+}

@@ -1,20 +1,25 @@
+/** @define Media */
+
 .Media {
   display: table;
   width: 100%;
 }
 
+.Media-img,
+.Media-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
 .Media-img {
-  display: table-cell;
-  padding-right: 1.5rem;
-  vertical-align: top;
+  padding-right: var(--base-spacing-unit);
 }
 
-.Media-img img {
-  max-width: 100%;
-  height: auto;
+.Media-img > img {
+  display: block;
+  max-width: none;
 }
 
-.Media-content {
-  display: table-cell;
-  vertical-align: top;
+.Media-body {
+  width: 100%;
 }

@@ -1,0 +1,47 @@
+/** @define MainHeader */
+
+.MainHeader {
+  background-color: #fff;
+  box-shadow: 0 0 5px 0 rgba(0,0,0, .25);
+}
+
+.MainHeader-top {
+  background-color: #0262ef;
+  height: 32px;
+}
+
+.MainHeader-logIn a {
+  color: #fff;
+  display: inline-block;
+  font-style: 0.75rem;
+  font-weight: 500;
+  line-height: 32px;
+  margin-right: var(--base-spacing-unit);
+  text-decoration: none;
+  text-transform: capitalize;
+  vertical-align: middle;
+}
+
+.MainHeader-bottom {
+  background-color: #fff;
+}
+
+.MainHeader-bottom > .Container {
+  align-items: center;
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+}
+
+.MainHeader-bottom nav a {
+  color: inherit;
+  display: inline-block;
+  margin: 0 var(--base-spacing-unit);
+  text-decoration: none;
+}
+
+.MainHeader-searchBox input {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: calc(var(--base-spacing-unit)/4) calc(var(--base-spacing-unit)/2);
+}

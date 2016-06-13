@@ -1,0 +1,11 @@
+/* postcss-bem-linter: ignore */
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.logo img {
+  max-width: 180px;
+}

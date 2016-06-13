@@ -41,9 +41,9 @@ const paths = {
   srcCSS: 'src/style.css',
   srcCSSAll: 'src/**/*.css',
   srcIMG: 'src/img/**',
-  srcPUG: 'src/html/*.pug',
-  partPUG: 'src/html/**/*.pug',
-  componentsPUG: 'src/components/**/*.pug',
+  srcPUG: 'src/html/*.jade',
+  partPUG: 'src/html/**/*.jade',
+  componentsPUG: 'src/components/**/*.jade',
   DATA: 'asset/data/**/*.{js,json}',
   dist: 'dist',
   distJS: 'dist/js',
@@ -187,7 +187,7 @@ gulp.task('copies', () => {
     './asset/img/**/*.*',
     './asset/js/**/*.*',
     './asset/css/**/*.*',
-  ], { 'base': './asset' })
+  ], { base: './asset' })
   .pipe(gulp.dest('./dist/asset'));
 });
 
